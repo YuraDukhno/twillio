@@ -52,14 +52,6 @@ const CustomTaskList = ({ tasks }) => {
             )}
           </Stack>
         )}
-        {/* {taskArray &&
-          taskArray.map(({ sid }) => (
-            <Stack orientation="vertical" spacing="space60">
-              <Card>
-
-              </Card>
-            </Stack>
-          ))} */}
       </Box>
     </Theme.Provider>
   );

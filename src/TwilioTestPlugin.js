@@ -25,7 +25,6 @@ export default class TwilioTestPlugin extends FlexPlugin {
 
     // Listen for task completion events
     manager.events.addListener('taskCompleted', (task) => {
-      console.log({task});
       const { from, to } = task['_task']?.attributes;
 
       const body = {
